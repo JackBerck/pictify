@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-padding-x {
+  @apply px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20;
+}
+
+.header-font-size {
+  @apply text-2xl sm:text-3xl lg:text-4xl;
+}
+
+.sub-header-font-size {
+  @apply text-xl sm:text-2xl lg:text-3xl;
+}
+
+.normal-font-size {
+  @apply text-base sm:text-lg lg:text-xl;
+}
+
+.small-font-size {
+  @apply text-xs sm:text-sm lg:text-base;
+}
+
+.extra-small-font-size {
+  @apply text-xs lg:text-sm;
+}

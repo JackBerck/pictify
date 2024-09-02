@@ -1,12 +1,12 @@
 import React from "react";
+import Hero from "../components/Hero";
+import ImageList from "../components/ImageList";
 
 export default function Homepage() {
   return (
     <>
-      <div>
-        <h1>Welcome to my website!</h1>
-        <p>Feel free to browse around.</p>
-      </div>
+      <Hero />
+      <ImageList />
     </>
   );
 }
