@@ -6,7 +6,7 @@ export default function Hero() {
       id="hero"
       className="section-padding-x text-dark-base min-h-[480px] pt-36"
     >
-      <div className="max-w-screen-lg container flex flex-col gap-2 md:gap-4">
+      <div className="max-w-screen-xl container flex flex-col gap-2 md:gap-4">
         <div className="">
           <h1 className="text-blue-base text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-2">
             Pictify
