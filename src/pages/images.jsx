@@ -84,7 +84,7 @@ export default function ImageDetailPage() {
               {image.collections}
             </span>
           </p>
-          <p className="normal-font-size font-semibold" title="Collections">
+          <p className="normal-font-size font-semibold" title="Likes">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -96,7 +96,7 @@ export default function ImageDetailPage() {
               {image.likes}
             </span>
           </p>
-          <p className="normal-font-size font-semibold" title="Collections">
+          <p className="normal-font-size font-semibold" title="Comments">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
