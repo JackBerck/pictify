@@ -1,10 +1,11 @@
 import SearchBar from "../SearchBar";
+import { useState } from "react";
 
-export default function Hero() {
+export default function Hero({ onSearchResult }) {
   return (
     <section
       id="hero"
-      className="section-padding-x text-dark-base min-h-[480px] pt-36"
+      className="section-padding-x text-dark-base min-h-[360px] lg:min-h-[480px] pt-24 md:pt-36"
     >
       <div className="max-w-screen-xl container flex flex-col gap-2 md:gap-4">
         <div className="">
@@ -15,7 +16,7 @@ export default function Hero() {
             Your Creative Companion to Discover and Save Stunning Images.
           </p>
         </div>
-        <SearchBar />
+        <SearchBar onSearchResult={onSearchResult} />
       </div>
     </section>
   );
